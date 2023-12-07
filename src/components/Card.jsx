@@ -3,10 +3,10 @@ import { SiGoogledocs } from "react-icons/si";
 import { SiMicrosoftexcel } from "react-icons/si";
 import { PiMicrosoftWordLogoFill } from "react-icons/pi";
 import { FaFile } from "react-icons/fa";
-import { motion,useAnimate } from "framer-motion"
+import { motion} from "framer-motion"
 
 const renderSwitch=(params)=> {
-    const animate=useAnimate();
+ 
     switch (params) {
       case "xlsx":
         return <SiMicrosoftexcel size={30} color={"#339966"} />;
